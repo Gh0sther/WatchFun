@@ -1,0 +1,68 @@
+<html>
+
+
+<head>
+
+
+
+</head>
+
+
+<body>
+  
+  
+  <style>
+    
+    
+    h1 {
+   
+   text-align : center ;
+   font-size : 200% ;
+  }
+      h2 {
+   
+   text-align : center ;
+   font-size : 160% ;
+   margin-right : 500px ;
+        margin-left : 500px ;
+  }
+    
+    
+    
+  </style>
+
+
+<h1>    School of Rock    </h1>
+
+<br>
+  <br>
+<h2><p>A musician had failed in his career as rock star. Hi shared flat but he couldnt pay his rent. So he was force to work as substitute teacher
+at a high school.
+ </p>
+  <br>
+  
+  <p>At his first day he realised that the children were really amazing at music . He started forming them as rock artist . Teaching them rock instead 
+  of classical music. His plan was won a competition with the help of the children to be successful in the end.
+   </p>
+  
+  </h2>
+<br>
+<br>
+  <br>
+<br>
+  
+  <br>
+<br>
+  
+  
+  <h3><a href = "../mobile.html" > MOBILE </a></h3>
+
+
+
+
+
+
+</body>
+
+
+</html>
