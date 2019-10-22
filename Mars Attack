@@ -1,0 +1,67 @@
+<html>
+
+
+<head>
+
+
+
+</head>
+
+
+<body>
+  
+  
+  <style>
+    
+    
+    h1 {
+   
+   text-align : center ;
+   font-size : 200% ;
+  }
+      h2 {
+   
+   text-align : center ;
+   font-size : 160% ;
+   margin-right : 500px ;
+        margin-left : 500px ;
+  }
+    
+    
+    
+  </style>
+
+
+<h1>    Mars Attack    </h1>
+
+<br>
+  <br>
+<h2><p> It`s start with with a unknown radio message. The NASA cant decipher the code or the language . A few hours later another radio message
+appeard. This time were the songs and the images from the Voyager .
+ </p>
+  <br>
+  
+  <p>The first meeting between aliens and humans. They were from Mars. Their intentions were not so paecefully as we would like. A great invasion began.  </p>
+  
+  
+  </h2>
+<br>
+<br>
+  <br>
+<br>
+  
+  <br>
+<br>
+  
+  
+  <h3><a href = "../mobile.html" > MOBILE </a></h3>
+
+
+
+
+
+
+</body>
+
+
+</html>
