@@ -1,0 +1,70 @@
+<html>
+
+
+<head>
+
+
+
+</head>
+
+
+<body>
+  
+  
+  <style>
+    
+    
+    h1 {
+   
+   text-align : center ;
+   font-size : 200% ;
+  }
+      h2 {
+   
+   text-align : center ;
+   font-size : 160% ;
+   margin-right : 500px ;
+        margin-left : 500px ;
+  }
+    
+    
+    
+  </style>
+
+
+<h1> TimeCop </h1>
+
+<br>
+  <br>
+<h2>  <p> Our main character is a cop. Whose family was murdered a few moments before he could arrived home.
+The murderer was never found.
+
+ </p>
+  <br>
+  
+  <p> Fifteen years later. The time travel has been invented. And our main character becomes to a time cop.
+  Their cases in the end get linked to the murderer of his family
+</p>
+  
+  
+  </h2>
+<br>
+<br>
+  <br>
+<br>
+  
+  <br>
+<br>
+  
+  
+  <h3><a href = "../hole.html" > Hole Plots </a></h3>
+
+
+
+
+
+
+</body>
+
+
+</html>
