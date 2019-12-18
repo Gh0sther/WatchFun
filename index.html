@@ -12,12 +12,20 @@
   // CSS
 
   <style>
+    @import "compass/css3";
+
+  @import url(https://fonts.googleapis.com/css?family=Exo:400,500,700,700italic);
  
 
    h1 {
       text-align:center ;
       color:#00FF41;
       }
+    
+    {
+   box-sizing:border-box; 
+    }
+    
 body {
     width:100%;
     height:100%;
@@ -29,6 +37,14 @@ body {
     background:url(https://subtlepatterns.com/patterns/black-Linen.png);
     font: 1.4em 'Exo', sans-serif;
      }
+    nav[role="select"] {
+    width: 100%;
+    position:relative;
+    color:#000;
+      
+      select {
+      display:none;  
+             }
 
 
     
@@ -37,16 +53,65 @@ body {
       width:100%;
       list-style:none;
     
-       li {
-        float:center;
-        padding:.55em .45em;
-        width:19%;
-        font-size:1.2em;
-        background-color: hsla(304, 35%, 51%, .5);
-        text-align:center;
+           li {
+            float:left;
+            padding:.55em .45em;
+            width:19%;
+            font-size:1.2em;
+            background-color: hsla(304, 35%, 51%, .5);
+            text-align:center;
+            transition-duration: .15s;
+            transition-timing-function: ease-in-out;
+            transition-property: box-shadow, background, color, text-align, padding;
+            cursor: pointer;
+
+              }
+          hover {
+                background-color: hsla(304, 35%, 51%, .3);
+                color:#fff;
+                text-align:left;
+                padding-left:.75em;
+                box-shadow:
+                  0 0 0 .25em rgba(0, 0, 0, .3),
+                  0 0 0 .5em rgba(0, 0, 0, .3),
+                  0 0 0 .75em rgba(0, 0, 0, .3),
+                  inset 0 0 0 .25em rgba(0, 0, 0, .3);           
+                }
+              a  {
+                color:inherit;
+                text-decoration:none;
+                transition:inherit;
+                 }
+            @media screen and (max-width: 44em) {
+              body {
+             margin:1em 0;     
+                   }
+    
+          nav[role="select"] {
+           ul {
+            display:none;
+              }
         
-          }
-        }
+              after {
+              position:absolute;
+              z-index:-1;
+              content:"Menu";
+              right:0;
+              bottom:-1.75em;
+              background:hsla(304, 35%, 51%, .4);
+              padding:.15em .55em;
+                   }
+                            }
+               select {
+      display:block;
+      user-select:none;
+      cursor: pointer;
+      width:100%;
+      padding:.55em .45em;
+      border:none;
+      background-color: hsla(304, 35%, 51%, .25);
+      font: 1.2em 'Exo', sans-serif;
+                      }
 
 
   </style>
