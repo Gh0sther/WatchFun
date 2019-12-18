@@ -9,6 +9,7 @@
 
 
 <body>
+  // CSS
 
   <style>
  
@@ -49,10 +50,11 @@ body {
 
 
   </style>
+  //Html
   
   <h1><b>WELCOME TO MY WORLD </b></h1>
   
-  
+  <nav role="select">
   
   <ul>
     
@@ -72,6 +74,14 @@ body {
     
     </ul>
     
+      <select onchange="if (this.value) window.location.href = this.value;">
+        <option value="#">Stream</option>
+        <option value="#">Lab</option>
+        <option value="#">Projects</option>
+        <option value="#">About</option>
+        <option value="#">Contact</option>
+    </select>
+</nav>
    
     
     
