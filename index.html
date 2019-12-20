@@ -26,19 +26,19 @@
               font: 1.4em "Exo", sans-serif;
            }
 
-      nav[role=select] {
+      nav[role=full-horizontal] {
                           width: 100%;
                           position: relative;
                           color: #000;
                        }
-      nav[role=select] > select {
+      nav[role=full-horizontal] > select {
                                  display: none;
                                 }
-          nav[role=select] ul {
+          nav[role=full-horizontal] ul {
                           width: 100%;
                           list-style: none;
                                }
-      nav[role=select] ul > li {
+      nav[role=full-horizontal] ul > li {
                             float: left;
                             padding: 0.55em 0.45em;
                             width: 19%;
@@ -50,7 +50,7 @@
                             transition-property: box-shadow, background, color, text-align, padding;
                             cursor: pointer;
                                }
-      nav[role=select] ul > li:hover {
+      nav[role=full-horizontal] ul > li:hover {
         background-color: rgba(174, 86, 168, 0.3);
         color: #fff;
         text-align: left;
@@ -60,7 +60,7 @@
                     0 0 0 0.75em rgba(0, 0, 0, 0.3),
                     inset 0 0 0 0.25em rgba(0, 0, 0, 0.3);
                                      }
-      nav[role=select] ul > li > a {
+      nav[role=full-horizontal] ul > li > a {
         color: inherit;
         text-decoration: none;
         transition: inherit;
@@ -72,10 +72,10 @@
               margin: 1em 0;
             }
 
-      nav[role=select] ul {
+      nav[role=full-horizontal] ul {
         display: none;
                           }
-      nav[role=select]:after {
+      nav[role=full-horizontal]:after {
                                 position: absolute;
                                 z-index: -1;
                                 content: "Menu";
@@ -84,7 +84,7 @@
                                 background: rgba(174, 86, 168, 0.4);
                                 padding: 0.15em 0.55em;
                               }
-    nav[role=select] select {
+    nav[role=full-horizontal] full-horizontal {
                                 display: block;
                                 user-select: none;
                                 cursor: pointer;
@@ -109,7 +109,7 @@
   
   <h1><b>WELCOME TO MY WORLD </b></h1>
   
-  <nav role="select">
+  <nav role="full-horizontal">
   
   <ul>
     
