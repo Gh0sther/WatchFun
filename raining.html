@@ -25,9 +25,30 @@
    font-size : 150 % ;
   }
   
-  h2 {
-   
-   text-align : center ;
+  nav[role=full-horizontal] {
+                          width: 100%;
+                          position: center ;
+                          color: #0000;
+                       }
+      nav[role=full-horizontal] > select {
+                                 display: none;
+                                }
+          nav[role=full-horizontal] ul {
+                          width: 100%;
+                          list-style: none;
+                               }
+      nav[role=full-horizontal] ul > li {
+                            float: left ;
+                            padding: 0.55em 0.45em;
+                            width: 16%;
+                            font-size: 1.0em;
+                            background-color: rgba(174, 86, 168, 0.5);
+                            text-align: center;
+                            transition-duration: 0.15s;
+                            transition-timing-function: ease-in-out;
+                            transition-property: box-shadow, background, color, text-align, padding;
+                            cursor: pointer;
+                               }
   }
  img  {
   display: block;
