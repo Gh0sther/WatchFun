@@ -3,11 +3,12 @@
                 function unhide(divID) {
                 var mostrar = document.getElementById(divID);
                 if (mostrar) {
-                mostrar.className=(mostrar.className=='hidden')
-                'hidden'='unhidden';
-                        
-                        }
-                                    }
+                    if (mostrar.className=='hidden') {
+                        mostrar.className='unhidden';
+                    } else {
+                    mostrar.className='hidden';
+                            }
+                                                }
             </script> 
 <head>
 
