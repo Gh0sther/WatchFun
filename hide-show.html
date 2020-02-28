@@ -1,17 +1,19 @@
 <html>
-            <script type="text/javascript">
-                function unhide(divID) {
-                var mostrar = document.getElementById(divID);
-                if (mostrar) {
-                    if (mostrar.className=='hidden') {
-                        mostrar.className='unhidden';
-                    } else {
-                    mostrar.className='hidden';
-                            }
-                                                }
-            </script> 
+           
 <head>
-
+    <script type="text/javascript">
+        function unhide(divID) {
+        var mostrar = document.getElementById(divID);
+        if (mostrar) {
+            if (mostrar.className=='hidden') {
+                mostrar.className='unhidden';
+                                            } 
+            else {
+            mostrar.className='hidden';
+                }
+                    }
+                             } 
+    </script> 
 <title>
 <h1>test hide-show</h1>
 </title>
@@ -39,16 +41,17 @@
 
     <div id="col2">
         <p>About time debe debe estar unhidden y "tony es gilipollas" debe estar hidden". El objetivo es mostrar el contenido oculto con el botón about time</p>
-        <div id="boton"  class="unhidden" >
+           
           
       
         <ul>
-        <li><a href="javascript:unhide('boton');">ABOUT TIME</a></li>
+        <li><a href="javascript:unhide('texto');">ABOUT TIME</a></li>
+        
       
         <div id="texto" class="hidden">
         <h2>Tony es gilipollas</h2>
         
-
+        </div>
         </ul>
        
     

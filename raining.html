@@ -2,7 +2,19 @@
 
 
 <head>
-
+    <script type="text/javascript">
+        function unhide(divID) {
+        var mostrar = document.getElementById(divID);
+        if (mostrar) {
+            if (mostrar.className=='hidden') {
+                mostrar.className='unhidden';
+                                            } 
+            else {
+            mostrar.className='hidden';
+                }
+                    }
+                             } 
+    </script> 
 
 </head>
 
@@ -11,13 +23,26 @@
 <body>
     <h1> RAINING </h1>
 
-    
+    <div id="col1">
 
 <nav role="full-horizontal">
-
+   
   <ul>
 
-    <li><h2><a href="Rain/Abouttime.html">1-About time</a></h2> </li>   
+    <li><h2><a href="javascript:unhide('texto');">1-About time</a></h2> </li> 
+
+        <div id="texto" class="hidden">
+
+        <p> At the south of England in Cornwall live a family. The story goes around the older son Tim. A lawyer student which most deeper desier
+        was find the love and have his own family. 
+        They first day of the year after the ocassional new year party that they celebrated at home. James , the Tim`s father told one secret.
+        The men of their family are able to do time travels by his owns experience not  before his born or further than his dead.
+         </p>
+         <img src="img/about-time.jpg" alt="logo"width="200"height="140">
+          
+          <p> With twenty one years old and with his layer degree. He moved to London to start a new life. He started to use his powers by accident helping
+          some friend until he met his true love. Sadly even with his ability wasnt so easy as he thought get her love.  </p>
+        </div>
 
     <li><h2><a href="Rain/TheIlusionist.html">2-The ilusionist</a></h2></li></li>
    
@@ -32,9 +57,10 @@
      <li><h2><a href ="Rain/BigFish.html">7-Big Fish</a></h2></li>
 
   </ul>
+     
 
 </nav>
-
+    </div>
 
 <style>
 
@@ -55,7 +81,9 @@
         a:visited { color: #000000; 
                   }
 
-              
+              p {
+                color:#00FF41; ;
+              }
        
       
 
